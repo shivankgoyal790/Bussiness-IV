@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navlinks from "../../Shared/Components/Navlinks";
 
 const Sidedrop = (props) => {
   return (
@@ -10,23 +9,46 @@ const Sidedrop = (props) => {
         top: "0px",
         right: "0px",
         height: "100vh",
-        width: "100vw",
         zIndex: "5",
         display: props.show ? "flex" : "none",
       }}
-      className="w-50 position-absolute bg-primary align-items-flex-start justify-content-center"
+      className="sidenav position-absolute bg-primary align-items-flex-start justify-content-between py-4 flex-column"
     >
-      <ul className="text-white">
-        <li className="nav-item d-block">HOME</li>
-        <li className="nav-item d-block">ABOUT</li>
-        <li className="nav-item d-block">SERVICES</li>
-        <li className="nav-item d-block">BLOG</li>
-        <li className="nav-item d-block">CONTACT</li>
-        <button
-          type="button"
-          className="btn btn-primary nav-item d-lg-inline d-none"
-        ></button>
-      </ul>
+      <div className="w-100 d-flex flex-column gap-2">
+        <h5 className="text-white w-100 d-flex justify-content-center">
+          Business IV
+        </h5>
+        <ul className="nav flex-column">
+          <li className="nav-item setborder w-100  p-1 active">
+            <a className="nav-link active text-white" href="/home">
+              Home
+            </a>
+          </li>
+          <li className="nav-item setborder w-100  p-1">
+            <a className="nav-link text-white" href="home">
+              About
+            </a>
+          </li>
+          <li className="nav-item setborder w-100   p-1">
+            <a className="nav-link text-white" href="home">
+              Services
+            </a>
+          </li>
+          <li className="nav-item setborder w-100  p-1">
+            <a className="nav-link text-white" href="home">
+              Blog
+            </a>
+          </li>
+          <li className="nav-item setborder w-100  p-1">
+            <a className="nav-link text-white" href="home">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="text-white-50 p-2">
+        © 2021 Business IV. Created for free using WordPress and colorlib
+      </div>
     </div>
   );
 };

@@ -1,4 +1,50 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+body {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+}
+
+.desc-para {
+  font-size: 22px;
+  line-height: 1cm;
+  font-weight: 600;
+  color: rgb(136, 139, 145);
+}
+
+h1.display-3.desc-head {
+  font-weight: revert;
+  color: rgb(36, 46, 66);
+}
+.setborder {
+  border-bottom: 1px solid #808080;
+}
+.sidenav {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 700;
+}
+.active {
+  background-color: rgb(36, 46, 66);
+  border: 1px solid rgb(36, 46, 66);
+}
+.main-head {
+  width: 50%;
+}
+
+
+@media screen and (max-width: 910px) {
+  .empty {
+    display: none;
+  }
+  .main-head {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-head {
+    width: 95%;
+  }
+  .sidenav {
+    width: 75%;
+  }
 }
