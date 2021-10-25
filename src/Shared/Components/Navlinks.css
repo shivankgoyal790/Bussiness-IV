@@ -5,13 +5,17 @@
 
 .mynavs {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   position: relative;
 }
 
 .mynavs:hover {
   color: rgb(0, 119, 255);
+}
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .mynavs:after {
@@ -28,15 +32,15 @@
   width: 100%;
 }
 
-.startbtn{
-    background-color :rgb(229, 241, 255);
-    color: rgb(0, 119, 255);
-    font-size: 14px;
-    font-weight: 700;
+.startbtn {
+  background-color: rgb(229, 241, 255);
+  color: rgb(0, 119, 255);
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.startbtn:hover{
-    transition: ease 1s;
-    color: rgb(229, 241, 255);
-    background-color: rgb(0, 119, 255);
+.startbtn:hover {
+  transition: ease 1s;
+  color: rgb(229, 241, 255);
+  background-color: rgb(0, 119, 255);
 }

@@ -1,5 +1,4 @@
 // the first component when site opens provides descripton
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../../images/hero-bg-1.jpg";
@@ -16,7 +15,7 @@ const Description = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="ms-md-5 d-flex flex-column gap-3 main-head align-items-center align-items-md-start">
+      <div className="ms-md-5 d-flex flex-column gap-3 main-head align-items-center align-items-md-start ">
         <h1 className="display-3 desc-head text-md-start text-center">
           Expert: a man who makes three correct guesses consecutively.
         </h1>

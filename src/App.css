@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   position: relative;
 }
 
@@ -27,10 +27,12 @@ h1.display-3.desc-head {
   background-color: rgb(36, 46, 66);
   border: 1px solid rgb(36, 46, 66);
 }
+.bold {
+  font-weight: 700;
+}
 .main-head {
   width: 50%;
 }
-
 
 @media screen and (max-width: 910px) {
   .empty {
