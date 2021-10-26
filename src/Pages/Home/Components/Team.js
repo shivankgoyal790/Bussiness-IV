@@ -1,3 +1,4 @@
+//PROJECTS AND TEAM MEMBERS COMPONENT
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo3 from "../../../images/world-map.png";
@@ -11,9 +12,13 @@ const Team = () => {
         backgroundBlendMode: "blend",
         backgroundSize: "cover",
         backgroundPosition: "top",
+        padding: "100px 0px",
       }}
     >
-      <h1 className="display-3 mt-5 desc-para text-white">
+      <h1
+        className="display-3 mt-5 desc-para text-white"
+        style={{ fontWeight: "500" }}
+      >
         Our work in numbers
       </h1>
       <p className="w-75 text-center mt-3 desc-para text-white py-4">
@@ -22,20 +27,28 @@ const Team = () => {
       </p>
       <div className="w-100 d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-5">
         <div className="d-flex flex-column gap-3 justify-content-between align-items-center">
-          <h1 className="display-2 bold">100+</h1>
-          <p>Successful projects</p>
+          <h1 className="display-2" style={{ fontWeight: "400" }}>
+            100+
+          </h1>
+          <h5>Successful projects</h5>
         </div>
         <div className="d-flex flex-column gap-3 justify-content-between align-items-center">
-          <h1 className="display-2 bold">55</h1>
-          <p>Business Centers</p>
+          <h1 className="display-2" style={{ fontWeight: "400" }}>
+            55
+          </h1>
+          <h5>Business Centers</h5>
         </div>
         <div className="d-flex flex-column gap-3 justify-content-between align-items-center">
-          <h1 className="display-2 bold">60+</h1>
-          <p>Team members</p>
+          <h1 className="display-2" style={{ fontWeight: "400" }}>
+            60+
+          </h1>
+          <h5>Team members</h5>
         </div>
         <div className="d-flex flex-column gap-3 justify-content-between align-items-center">
-          <h1 className="display-2 bold">20+</h1>
-          <p>Supported Countries</p>
+          <h1 className="display-2" style={{ fontWeight: "400" }}>
+            20+
+          </h1>
+          <h5>Supported Countries</h5>
         </div>
       </div>
     </div>

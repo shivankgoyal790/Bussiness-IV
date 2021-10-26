@@ -4,15 +4,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloud } from "@fortawesome/free-solid-svg-icons";
 
-const Infocard = (props) => {
+const Infocard1 = (props) => {
   return (
     <div
-      className="d-flex flex-column text-white gap-3"
+      className="d-flex flex-column text-white gap-3 align-items-center align-items-md-end p-4"
       style={{ alignItems: props.align }}
     >
-      <FontAwesomeIcon icon={faCloud} style={{ fontSize: "50px" }} />
+      <FontAwesomeIcon
+        icon={faCloud}
+        style={{ fontSize: "50px", textAlign: props.alignpara }}
+      />
       <h4>{props.head}</h4>
-      <p style={{ textAlign: props.alignpara }}>
+      <p className="align">
         Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his
         nemore.
       </p>
@@ -20,4 +23,4 @@ const Infocard = (props) => {
   );
 };
 
-export default Infocard;
+export default Infocard1;

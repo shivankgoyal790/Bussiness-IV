@@ -25,25 +25,44 @@ const ContactUs = () => {
             </p>
           </div>
         </div>
-        <div className="w-100 row mt-4 px-4">
-          <div className="row col-md-8 col-sm-10 col-12 m-auto p-0">
+        <div className="w-100 row mt-4 px-md-4 p-4">
+          <div className="row col-lg-8 col-md-10 col-12 m-auto p-0">
             <div
-              className="col-sm-1 col-12"
+              className="col-sm-1 col-12 d-flex flex-sm-column flex-row justify-content-between p-0"
               style={{
                 minwidth: "100px",
                 minHeight: "50px",
                 backgroundColor: "rgb(0, 119, 255)",
               }}
-            ></div>
-            <div className="col-sm-7 col-12 bg-white shadow-lg">
+            >
+              <div
+                className="bg-white d-none d-sm-block"
+                style={{ height: "50px", width: "100%" }}
+              ></div>
+              <div
+                className="bg-white d-sm-block d-none"
+                style={{ height: "50px", width: "100%" }}
+              ></div>
+            </div>
+            <div className="col-sm-7 col-12 bg-white shadow-lg border">
               <Forms />
             </div>
             <div
-              className="col-sm-4 col-12 bg-primary d-flex flex-column align-items-center text-center text-white justify-content-center"
+              className="col-sm-4 col-12 bg-primary d-flex flex-column align-items-center text-center text-white justify-content-between p-0"
               style={{ minHeight: "50px", backgroundColor: "rgb(0, 119, 255)" }}
             >
-              <h3 className="">Our Social Contact Information</h3>
-              <SocialIcons />
+              <div
+                className="bg-white d-none d-sm-block"
+                style={{ height: "50px", width: "100%" }}
+              ></div>
+              <div className="py-sm-0 py-5 ">
+                <h3 className="">Our Social Contact Information</h3>
+                <SocialIcons />
+              </div>
+              <div
+                className="bg-white d-sm-block d-none"
+                style={{ height: "50px", width: "100%" }}
+              ></div>
             </div>
           </div>
         </div>

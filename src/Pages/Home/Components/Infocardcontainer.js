@@ -1,22 +1,32 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Infocard from "./InfoCard";
+import Infocard1 from "./InfoCard1";
+import Infocard2 from "./Infocard2";
 import logo from "../../../images/images_features12-a_0-1544804161468.jpg";
 const Infocardcontainer = () => {
   return (
-    <div className="w-75 d-flex justify-content-center flex-column flex-md-row gap-5">
-      <div className="d-flex flex-column gap-5 align-items-center">
-        <Infocard align="flex-end" head="Digital Computing" alignpara="right" />
-        <Infocard align="flex-end" head="Cloud Computing" alignpara="right" />
-        <Infocard align="flex-end" head="AI Frameworks" alignpara="right" />
-      </div>
-      <div className="w-50 d-flex justify-content-center align-items-center">
-        <img className="img-fluid" src={logo} alt="logo"  />
-      </div>
-      <div className="d-flex flex-column gap-5 align-items-center">
-        <Infocard head="My Heading is awesome" />
-        <Infocard head="My Heading is awesome" />
-        <Infocard head="My Heading is awesome" />
+    <div className="row w-100 mt-5">
+      <div className="col-lg-10 col-12 mx-auto">
+        <div className="row">
+          <div className="col-md-4 col-12">
+            <Infocard1 head="Digital Computing" />
+            <Infocard1 head="Cloud Computing" />
+            <Infocard1 head="AI Frameworks" />
+          </div>
+          <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
+            <img
+              className="img-fluid m-auto"
+              src={logo}
+              alt="logo"
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="col-md-4 col-12">
+            <Infocard2 head="My Heading is awesome" />
+            <Infocard2 head="My Heading is awesome" />
+            <Infocard2 head="My Heading is awesome" />
+          </div>
+        </div>
       </div>
     </div>
   );

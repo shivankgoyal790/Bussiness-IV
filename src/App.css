@@ -4,11 +4,19 @@ body {
   position: relative;
 }
 
+.cardclass {
+  width: 360px;
+  min-width: 250px;
+}
 .desc-para {
   font-size: 22px;
   line-height: 1cm;
   font-weight: 600;
   color: rgb(136, 139, 145);
+}
+
+.align {
+  text-align: right;
 }
 
 h1.display-3.desc-head {
@@ -48,5 +56,14 @@ h1.display-3.desc-head {
   }
   .sidenav {
     width: 75%;
+  }
+  .cardclass {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .align {
+    text-align: center;
   }
 }
