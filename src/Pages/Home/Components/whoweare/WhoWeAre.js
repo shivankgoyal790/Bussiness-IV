@@ -10,7 +10,7 @@ const WhoWeAre = () => {
       className="d-flex flex-column gap-5 justify-content-center align-items-center pb-5"
       style={{
         backgroundImage: `url(${logo2})`,
-        backgroundPosition: "82% -110%",
+        backgroundPosition: "61% -70%",
         backgroundRepeat: "no-repeat",
       }}
     >
@@ -30,8 +30,8 @@ const WhoWeAre = () => {
       </div>
 
       <div
-        className="row container text-white px-5 mt-4 gap-md-4 gap-lg-0 gap-5"
-        style={{ paddingBottom: "20px" }}
+        className="row container text-white mt-4 gap-1"
+        style={{ paddingBottom: "20px", boxSizing: "border-box" }}
       >
         <div
           className="col-lg-5 col-md-12 px-4 py-5 d-flex flex-column gap-4 rounded justify-content-center mx-md-auto"
@@ -51,10 +51,6 @@ const WhoWeAre = () => {
           <p>Read more &#8594;</p>
         </div>
         <div
-          className="col-lg-1 d-none d-lg-inline"
-          style={{ width: "1%" }}
-        ></div>
-        <div
           className="col-lg-3 col-md-5 col-12 bg-primary d-flex flex-column gap-4 py-5 px-4 rounded mx-sm-auto"
           style={{
             backgroundImage: `url(${logo1})`,
@@ -70,10 +66,7 @@ const WhoWeAre = () => {
           </p>
           <p>Read more &#8594;</p>
         </div>
-        <div
-          className="col-lg-1 d-none d-md-inline"
-          style={{ width: "1%" }}
-        ></div>
+
         <div
           className="col-lg-3 col-md-5 col-12 d-flex flex-column gap-4 py-5 px-4 rounded mx-sm-auto"
           style={{

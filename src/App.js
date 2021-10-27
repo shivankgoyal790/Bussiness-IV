@@ -8,6 +8,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 function App() {
   return (
     <Router>
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path="/Contact" exact>
           <ContactUs />
+        </Route>
+        <Route path="/portfolio" exact>
+          <Portfolio />
         </Route>
         <Redirect to="/"></Redirect>
       </Switch>

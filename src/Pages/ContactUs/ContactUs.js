@@ -4,6 +4,7 @@ import Mainnav from "../../Shared/Components/Mainnav";
 import Forms from "./components/Forms";
 import SocialIcons from "./components/SocialIcons";
 import ContactCards from "./components/ContactCards";
+import Footer from "../../Components/Footer";
 
 const ContactUs = () => {
   return (
@@ -87,6 +88,7 @@ const ContactUs = () => {
           <ContactCards />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
