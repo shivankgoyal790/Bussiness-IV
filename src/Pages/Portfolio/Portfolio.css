@@ -11,15 +11,21 @@
   box-sizing: border-box;
   opacity: 0.8;
 }
-
+.projecthover {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
 .projecthover:hover .overlay {
   display: block;
 }
 .project-image img {
   width: 100%;
   height: 100%;
+  position: center;
+  object-fit: cover;
 }
-.projecthover:ho .overlay .project-image img {
+.projecthover .overlay .project-image img {
   width: 100%;
   height: 100%;
   overflow: hidden;

@@ -2,19 +2,9 @@ import React from "react";
 import "./Portfolio.css";
 const ProjectCard = (props) => {
   return (
-    <div
-      className="position-relative shadow border-secondary projecthover"
-      style={{ width: "320px", height: "320px", objectFit: "cover" }}
-    >
+    <div className="position-relative shadow border-secondary projecthover">
       <div className="w-100 h-100 overflow-hidden project-image">
-        <img
-          src={props.image}
-          alt="project"
-          style={{
-            position: "center",
-            objectFit: "cover",
-          }}
-        />
+        <img src={props.image} alt="project" />
       </div>
       <div className="position-absolute bg-primary overlay py-2 px-3">
         <h5 className="text-capitalize">{props.workname}</h5>

@@ -1,0 +1,58 @@
+{
+    "Description" : {
+            "header" : "Expert: a man who makes three correct guesses consecutively.",
+            "para" : "Sed convallis dapibus massa, ut auctor ipsum scelerisque vitae fermentum ut metus sed, aliquet tincidunt eros euismod lacinia  mauris, eu eleifend nisl hendrerit eget",
+            "button1" : "GET STARTED!",
+            "button2" : " DISCOVER MORE"
+        },
+    "what_we_do" :{
+                "header" : "What can we do for you",
+                "para" : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.Viderer feugiat at pro, mea aperiam",
+                "button" : "Our Services"
+            
+    },
+    "Who_are_we" :{
+        "header" :"Who We Are",
+        "para" :"Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.Viderer feugiat at pro, mea aperiam",
+        "about_card1" : {
+            "header" : "High Quality rendering",
+            "para"  : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.Viderer feugiat at pro, mea aperiam"
+        },
+        "about_card2" : {
+            "header" : "Quisque suscipit finibus risus, ut felis vestibulum in",
+            "para"  :"Vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam temporibus consequuntur vim ad prima."
+        },
+        "about_card3" : {
+            "header" : "Quisque suscipit finibus risus, ut felis vestibulum in",
+            "para"  :"Vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam temporibus consequuntur vim ad prima."
+         }
+        },
+
+        "Reach_us" :{
+            "header" :"We would love to hear from you",
+            "para" :"Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam",
+            "button" : "GET IN TOUCH"
+        },
+        "team" : {
+            "header" : "Our work in numbers",
+            "para" : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.",
+            "teamcard1" : {
+                "number" : "100+",
+                "para" : "Sucessful Projects"
+            },
+            "teamcard2" : {
+                "number" : "55",
+                "para" : "Business Center"
+            },
+            "teamcard3" : {
+                "number" : "60+",
+                "para" : "Team Members"
+            },
+            "teamcard4" : {
+                "number" : "20+",
+                "para" : "Supported Countries"
+            }
+        }
+
+
+}

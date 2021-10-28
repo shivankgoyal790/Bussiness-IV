@@ -2,11 +2,11 @@ import React from "react";
 import logo from "../../../../images/colibri.jpg";
 const ArticleCard = (props) => {
   return (
-    <div class="card cardclass">
-      <img class="card-img-top" src={logo} alt="Card" />
-      <div class="card-body">
+    <div className="card cardclass">
+      <img className="card-img-top" src={logo} alt="Card" />
+      <div className="card-body">
         <h3>Lorem ipsum</h3>
-        <p class="card-text">
+        <p className="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Mainnav from "../../Shared/Components/Mainnav";
 import Forms from "./components/Forms";
 import SocialIcons from "./components/SocialIcons";
-import ContactCards from "./components/ContactCards";
-import Footer from "../../Components/Footer";
+import Footer from "../../Components/Footer/Footer";
+import ContactCardContainer from "./components/ContactCardContainer";
 
 const ContactUs = () => {
   return (
@@ -37,12 +37,12 @@ const ContactUs = () => {
               }}
             >
               <div
-                className="bg-white d-none d-sm-block"
-                style={{ height: "50px", width: "100%" }}
+                className="bg-white d-none d-sm-block w-100"
+                style={{ height: "50px" }}
               ></div>
               <div
-                className="bg-white d-sm-block d-none"
-                style={{ height: "50px", width: "100%" }}
+                className="bg-white d-sm-block d-none w-100"
+                style={{ height: "50px" }}
               ></div>
             </div>
             <div className="col-sm-7 col-12 bg-white shadow-lg border">
@@ -53,40 +53,21 @@ const ContactUs = () => {
               style={{ minHeight: "50px", backgroundColor: "rgb(0, 119, 255)" }}
             >
               <div
-                className="bg-white d-none d-sm-block"
-                style={{ height: "50px", width: "100%" }}
+                className="bg-white d-none d-sm-block w-100"
+                style={{ height: "50px" }}
               ></div>
               <div className="py-sm-0 py-5 ">
                 <h3 className="">Our Social Contact Information</h3>
                 <SocialIcons />
               </div>
               <div
-                className="bg-white d-sm-block d-none"
-                style={{ height: "50px", width: "100%" }}
+                className="bg-white d-sm-block d-none w-100"
+                style={{ height: "50px" }}
               ></div>
             </div>
           </div>
         </div>
-        <h1 className="display-6 mt-5" style={{ fontWeight: "700" }}>
-          Our Support Departments
-        </h1>
-
-        <div className="row w-100">
-          <p
-            className="text-center text-secondary col-md-8 col-12 m-auto"
-            style={{ fontSize: "18px", fontWeight: "500" }}
-          >
-            Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In
-            his nemore temporibus consequuntur, vim ad prima vivendum
-            consetetur. Viderer feugiat at pro, mea aperiam
-          </p>
-        </div>
-        <div className="w-100 d-flex flex-md-row flex-column justify-content-center align-items-center gap-5">
-          <ContactCards />
-          <ContactCards />
-          <ContactCards />
-          <ContactCards />
-        </div>
+        <ContactCardContainer />
       </div>
       <Footer />
     </>

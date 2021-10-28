@@ -44,7 +44,7 @@ const Mainnav = () => {
       >
         <div
           style={{ width: "40px", height: "40px" }}
-          className="rounded-circle bg-primary d-flex align-items-center justify-content-center p-3"
+          className="rounded-circle bg-primary d-flex align-items-center justify-content-center p-3 "
         >
           <FontAwesomeIcon
             className="text-white"

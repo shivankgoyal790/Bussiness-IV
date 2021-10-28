@@ -5,26 +5,18 @@ import {
   faTwitterSquare,
   faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import "../Contact.css";
 
 const SocialIcons = () => {
   return (
-    <div className="d-flex gap-2 justify-content-evenly align-items-center">
-      <div
-        className="rounded-circle border d-flex justify-content-evenly align-items-center"
-        style={{ width: "50px", height: "50px" }}
-      >
+    <div className="d-flex gap-3 justify-content-center align-items-center">
+      <div className="rounded-circle border d-flex justify-content-evenly align-items-center iconsize">
         <FontAwesomeIcon icon={faFacebookSquare} />
       </div>
-      <div
-        className="rounded-circle border d-flex justify-content-evenly align-items-center"
-        style={{ width: "50px", height: "50px" }}
-      >
+      <div className="rounded-circle border d-flex justify-content-evenly align-items-center iconsize">
         <FontAwesomeIcon icon={faTwitterSquare} />
       </div>
-      <div
-        className="rounded-circle border d-flex justify-content-evenly align-items-center"
-        style={{ width: "50px", height: "50px" }}
-      >
+      <div className="rounded-circle border d-flex justify-content-evenly align-items-center iconsize">
         <FontAwesomeIcon icon={faYoutubeSquare} />
       </div>
     </div>
