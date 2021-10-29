@@ -1,99 +1,35 @@
 // ALL LINKS TO PAGES IN NAVLINKS
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navlinks.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Navlinks = () => {
-  const [activeabout, setactiveabout] = useState("");
-  const [activehome, setactivehome] = useState("active1");
-  const [activeservices, setactiveservices] = useState("");
-  const [activeportfolio, setactiveportfolio] = useState("");
-  const [activecontact, setactivecontact] = useState("");
-  const activenavhandler1 = () => {
-    setactivehome("active1");
-    setactiveportfolio("");
-    setactivecontact("");
-    setactiveabout("");
-    setactiveservices("");
-  };
-  const activenavhandler2 = (event) => {
-    event.preventDefault();
-    setactivehome("");
-    setactiveportfolio("");
-    setactivecontact("");
-    setactiveabout("active1");
-    setactiveservices("");
-  };
-  const activenavhandler3 = () => {
-    setactivehome("");
-    setactiveportfolio("");
-    setactivecontact("");
-    setactiveabout("");
-    setactiveservices("active1");
-  };
-  const activenavhandler4 = () => {
-    setactivehome("");
-    setactiveportfolio("active1");
-    setactivecontact("");
-    setactiveabout("");
-    setactiveservices("");
-  };
-  const activenavhandler5 = (event) => {
-    event.preventDefault();
-    setactivehome("");
-    event.preventDefault();
-    setactiveportfolio("");
-    event.preventDefault();
-    setactivecontact("active1");
-    setactiveabout("");
-    setactiveservices("");
-  };
-
   return (
     <nav className="d-md-flex align-items-center gap-5 d-none justify-content-md-around">
-      <li
-        className={`nav-item d-inline mynavs ${activehome}`}
-        id="home"
-        onClick={activenavhandler1}
-      >
-        <Link to="/" id="home">
+      <li className={`nav-item d-inline mynavs `}>
+        <NavLink to="/" exact activeClassName="active1">
           HOME
-        </Link>
+        </NavLink>
       </li>
-      <li
-        className={`nav-item d-inline mynavs ${activeabout}`}
-        onClick={activenavhandler2}
-      >
-        <Link to="/" id="about">
+      <li className={`nav-item d-inline mynavs `}>
+        <NavLink to="/about" activeClassName="active1">
           ABOUT
-        </Link>
+        </NavLink>
       </li>
-      <li
-        className={`nav-item d-inline mynavs ${activeservices}`}
-        id="services"
-        onClick={activenavhandler3}
-      >
-        <Link to="/" id="services">
+      <li className={`nav-item d-inline mynavs `} id="services">
+        <NavLink to="/services" activeClassName="active1">
           SERVICES
-        </Link>
+        </NavLink>
       </li>
-      <li
-        className={`nav-item d-inline mynavs ${activeportfolio}`}
-        id="portfolio"
-        onClick={activenavhandler4}
-      >
-        <Link to="/portfolio" id="portfolio">
+      <li className={`nav-item d-inline mynavs`} id="portfolio">
+        <NavLink to="/portfolio" activeClassName="active1">
           PORTFOLIO
-        </Link>
+        </NavLink>
       </li>
-      <li
-        className={`nav-item d-inline mynavs ${activecontact}`}
-        id="contact"
-        onClick={activenavhandler5}
-      >
-        <Link to="/contact" id="contact">
+      <li className={`nav-item d-inline mynavs `} id="contact">
+        <NavLink to="/contact" activeClassName="active1">
           CONTACT
-        </Link>
+        </NavLink>
       </li>
       <button
         type="button"

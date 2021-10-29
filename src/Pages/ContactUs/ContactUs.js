@@ -3,16 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Mainnav from "../../Shared/Components/Mainnav";
 import Forms from "./components/Forms";
 import SocialIcons from "./components/SocialIcons";
-import Footer from "../../Components/Footer/Footer";
 import ContactCardContainer from "./components/ContactCardContainer";
-
+import ConfigData from "../../config.json";
 const ContactUs = () => {
   return (
     <>
       <Mainnav />
       <div className="d-flex flex-column align-items-center gap-5 mt-5 pt-5 w-100">
         <h1 className="display-3" style={{ fontWeight: "700" }}>
-          Contact
+          {ConfigData.Contact_Us.header}
         </h1>
         <div className="row w-100">
           <div className="col-md-8 col-12 m-auto">
@@ -20,9 +19,7 @@ const ContactUs = () => {
               className="w-100 text-center text-secondary"
               style={{ fontSize: "18px", fontWeight: "500" }}
             >
-              Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In
-              his nemore temporibus consequuntur, vim ad prima vivendum
-              consetetur. Viderer feugiat at pro, mea aperiam
+              {ConfigData.Contact_Us.para}
             </p>
           </div>
         </div>
@@ -57,7 +54,7 @@ const ContactUs = () => {
                 style={{ height: "50px" }}
               ></div>
               <div className="py-sm-0 py-5 ">
-                <h3 className="">Our Social Contact Information</h3>
+                <h3 className="">{ConfigData.Contact_Us.Social_icons_info}</h3>
                 <SocialIcons />
               </div>
               <div
@@ -69,7 +66,6 @@ const ContactUs = () => {
         </div>
         <ContactCardContainer />
       </div>
-      <Footer />
     </>
   );
 };
