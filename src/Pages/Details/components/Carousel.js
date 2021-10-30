@@ -37,6 +37,10 @@ const Carousel = () => {
       }
     }
   };
+
+  setInterval(() => {
+    nexthandler();
+  }, 4000);
   return (
     <div
       id="carouselExampleControls"

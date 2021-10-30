@@ -3,6 +3,7 @@ import Mainnav from "../../Shared/Components/Mainnav";
 import Carousel from "./components/Carousel";
 import Projectinfo from "./components/Projectinfo";
 import ProjectSummary from "./components/ProjectSummary";
+import Relatedprojects from "./components/Relatedprojects";
 const Details = () => {
   return (
     <div>
@@ -15,6 +16,9 @@ const Details = () => {
         <div className="col-lg-4 col-12">
           <Projectinfo />
         </div>
+      </div>
+      <div className="container">
+        <Relatedprojects />
       </div>
     </div>
   );

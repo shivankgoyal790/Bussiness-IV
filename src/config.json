@@ -63,6 +63,36 @@
             "Card_heading3" : "Support Awesome",
             "Card_heading4" : "Support Awesome",
             "Social_icons_info" : "Our Social Contact Information"
+        },
+        "Aboutus": {
+            "header" : "At Hasura, we’re on a mission to make data access fast, secure & scalable. We want to get to a world where data delivery is just another piece of infrastructure!",
+            "mission" : {
+                "para1" : "With the rise of cloud-native and rich frontend frameworks, we can now build, ship and iterate on applications extremely fast. However, data and event delivery have emerged as the key bottleneck where teams spend months architecting and building just to enable their developers to get on with the business of building things!",
+                "para2" : "Hasura makes data access easy, by instantly composing a GraphQL API that is backed by databases and services so that the developer team (or API consumers) get immediately productive. The nature of GraphQL itself and Hasura’s dynamic approach makes integration and iteration easy.",
+                "para3" : "Hasura’s event engine makes it possible to embrace cloud-native without having to worry about non-functional things scaling, reliability and delivery guarantees. Developers can easily build business logic that publishes and consumes events, that reacts to changes in data or gets scheduled based on time."
+            },
+            "about" :{
+                "para" : "Hasura was open-sourced in July 2018 and since then tens of thousands of developers have used Hasura to build their data layer for modern applications. Hasura has also seen adoption across Fortune 500 corporations, fast growing startups & product development agencies. We have highlighted some of these users on our case studies page."
+            },
+            "about_company" :{
+                "para" : "The name Hasura comes from a portmanteau of Asura, the Sanskrit word for demon, and Haskell. Asura refers to daemons, or computer programs that run as background processes. Haskell is the functional programming language we used to build Hasura in, and is Hasura’s one true Heart."
+            },
+            "suppportcard1" : {
+                "heading" :"Our Customers",
+                "para" : "Check out our customer stories"
+            },
+            "suppportcard2" : {
+                "heading" :"Our Customers",
+                "para" : "Check out our customer stories"
+            },
+            "suppportcard3" : {
+                "heading" :"Our Customers",
+                "para" : "Check out our customer stories"
+            }
+        
+
+
+
         }
 
 

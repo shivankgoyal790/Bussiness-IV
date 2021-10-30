@@ -1,0 +1,7 @@
+.about-bg {
+  background-image: url("../../images/drew-graham-PVyhz0wmHdo-unsplash.jpg");
+  background-size: "cover";
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
