@@ -6,12 +6,14 @@ import configdata from "../../config.json";
 import "./About.css";
 import Aboutcontainer from "./components/Aboutcontainer";
 import Investors from "./components/Investors";
+import image3 from "../../images/footer-img-79b3cfc0ceb3c7e466198ae09e1d4e6e.png";
+import Newsletter from "./components/NewsLetter";
 
 const About = () => {
   return (
-    <div>
+    <div className="w-100">
       <Mainnav />
-      <div className="w-100 text-center p-5 mt-5 text-white about-bg">
+      <div className="w-100 text-center p-sm-5 p-1 mt-5 text-white about-bg">
         <h2 className="mx-auto p-5 my-5" style={{ lineHeight: "1.5" }}>
           {configdata.Aboutus.header}
         </h2>
@@ -62,6 +64,15 @@ const About = () => {
       </div>
       <SupportCards />
       <Investors />
+      <Newsletter />
+      <div className="w-100 text-center">
+        <img
+          src={image3}
+          alt="pic"
+          className="mx-auto w-100"
+          style={{ objectPosition: "center", objectFit: "cover" }}
+        />
+      </div>
     </div>
   );
 };

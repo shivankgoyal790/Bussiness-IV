@@ -12,6 +12,7 @@ import {
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
 import About from "./Pages/About/About";
+import Services from "./Pages/Services/Services";
 function App() {
   return (
     <Router>
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/about" exact>
           <About />
+        </Route>
+        <Route path="/services" exact>
+          <Services />
         </Route>
         <Route path="/Contact" exact>
           <ContactUs />

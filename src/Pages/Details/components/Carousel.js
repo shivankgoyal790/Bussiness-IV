@@ -37,13 +37,18 @@ const Carousel = () => {
       }
     }
   };
-
-  setInterval(() => {
+  // let myTimer;
+  // const pause = () => {
+  //   console.log("worked");
+  //   clearInterval(myTimer);
+  // };
+  setInterval(function () {
     nexthandler();
   }, 4000);
+
   return (
     <div
-      id="carouselExampleControls"
+      id="mycarousel"
       className="carousel slide container mt-5 pt-5"
       data-ride="carousel"
     >
