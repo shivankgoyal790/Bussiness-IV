@@ -5,12 +5,17 @@
             "button1" : "GET STARTED!",
             "button2" : " DISCOVER MORE"
             },
+
+
     "what_we_do" :{
                 "header" : "What can we do for you",
                 "para" : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.Viderer feugiat at pro, mea aperiam",
                 "button" : "Our Services"
             
             },
+
+
+
     "Who_are_we" :{
         "header" :"Who We Are",
         "para" :"Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.Viderer feugiat at pro, mea aperiam",
@@ -27,12 +32,19 @@
             "para"  :"Vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam temporibus consequuntur vim ad prima."
                     }
               },
-
+        
+        
+        
         "Reach_us" :{
             "header" :"We would love to hear from you",
             "para" :"Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam",
             "button" : "GET IN TOUCH"
         },
+
+
+
+
+
         "team" : {
             "header" : "Our work in numbers",
             "para" : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur.",
@@ -53,6 +65,12 @@
                 "para" : "Supported Countries"
             }
         },
+
+
+
+
+
+
         "Contact_Us" :{
             "header" : "Contact Us",
             "para" : "Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam",
@@ -64,6 +82,12 @@
             "Card_heading4" : "Support Awesome",
             "Social_icons_info" : "Our Social Contact Information"
         },
+
+
+
+
+
+
         "Aboutus": {
             "header" : "At Hasura, we’re on a mission to make data access fast, secure & scalable. We want to get to a world where data delivery is just another piece of infrastructure!",
             "mission" : {
@@ -90,9 +114,123 @@
                 "para" : "Check out our customer stories"
             }
         
+        },
 
-
-
+        "Services" : {
+            "header" : {
+                "head" : "We design apps & websites that lead in their space",
+                "para" : "We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,"
+            },
+            "services_container":{
+                "para" :"Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+                "card1" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                },
+                "card2" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                },
+                "card3" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                },
+                "card4" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                },
+                "card5" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                },
+                "card6" : {
+                    "head" : "Lorem Ipsum",
+                    "para" :"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                }
+            },
+            "industry" :{
+                "head" : "Managed IT services customized for your industry",
+                "para" :"We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences,",
+                "card1" :{
+                    "head" :"Industries & manufacturing"
+                },
+                "card2" :{
+                    "head" :"Industries & manufacturing"
+                },
+                "card3" :{
+                    "head" :"Industries & manufacturing"
+                },
+                "card4" :{
+                    "head" :"Industries & manufacturing"
+                }
+            },
+            "learn" :{
+                "head" : "Insights to help you do what you do better, faster and more profitably.",
+                "para" : "We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insuranc.",
+                "button" : "Learn More"
+            },
+            "discussion" : {
+                "head" : "Lets work together",
+                "para" : "We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insuranc.",
+                "button" : "Start discussion"
+            },
+            "feedback" : {
+                "container1" :{
+                    "card1" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card2" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card3" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card4" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    }
+                },
+                "container2" :{
+                    "card1" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card2" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card3" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card4" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    }
+                },
+                "container3" :{
+                    "card1" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card2" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card3" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    },
+                    "card4" :{
+                        "head":"Brilliant Work",
+                        "para" :"You deserve a home that is functional and stylish, today. Don’t put it off until the kids are older or you have more time."
+                    }
+                }
+            }
+            
         }
 
 

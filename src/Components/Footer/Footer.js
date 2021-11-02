@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import SocialIcons from "./Socialicons";
 const Footer = () => {
@@ -43,10 +44,26 @@ const Footer = () => {
           <div className="col-lg-2 col-md-3 col-sm-6 col-12 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center mt-md-0 mt-5">
             <div className="d-flex flex-column gap-3 footerlinks">
               <h5 className="m-0">Quick Link</h5>
-              <span>Services</span>
-              <span>Portfolio</span>
-              <span>About Us</span>
-              <span>Contact Us</span>
+              <span>
+                <Link className="text-white" to="/services">
+                  Services
+                </Link>
+              </span>
+              <span>
+                <Link className="text-white" to="/portfolio">
+                  Portfolio
+                </Link>
+              </span>
+              <span>
+                <Link className="text-white" to="/about">
+                  About Us
+                </Link>
+              </span>
+              <span>
+                <Link className="text-white" to="/contact">
+                  Contact Us
+                </Link>
+              </span>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 col-12 flex-column d-flex justify-content-md-start align-items-md-start mt-lg-0 mt-5 gap-1 footerlinks">
