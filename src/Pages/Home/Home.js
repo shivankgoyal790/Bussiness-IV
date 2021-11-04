@@ -1,6 +1,6 @@
 import React from "react";
 import WhatWeDo from "./components/WhatWeDo";
-import Description from "./components/Description.js";
+import Description from "./components/Description";
 import Team from "./components/Team";
 import ReachUs from "./components/ReachUs";
 import Mainnav from "../../Shared/Components/Mainnav";

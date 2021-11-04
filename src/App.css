@@ -42,6 +42,21 @@ h1.display-3.desc-head {
   width: 50%;
 }
 
+.carousel-control-prev-icon {
+  color: black;
+  background-color: black;
+  padding: 20px;
+  position: absolute;
+  left: 15px;
+}
+.carousel-control-next-icon {
+  color: black;
+  padding: 20px;
+  position: absolute;
+  right: 15px;
+  background-color: black;
+}
+
 @media screen and (max-width: 910px) {
   .empty {
     display: none;

@@ -36,8 +36,9 @@ const Accordian = (props) => {
         </div>
       </div>
       <div
-        className="bg-white shadow-lg py-5 px-3"
+        className="bg-white shadow-lg py-5 px-3 collapse-item"
         style={{ display: active ? "block" : "none" }}
+        data-toggle="collapse"
       >
         {props.text}
       </div>
