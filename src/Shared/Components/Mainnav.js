@@ -16,6 +16,9 @@ const Mainnav = () => {
   const Closehandler = () => {
     setisopen(false);
   };
+  const scrollevent = () => {
+    window.addEventListener("scroll", shadowhandler);
+  };
   const shadowhandler = () => {
     var scroll = window.scrollY;
 
@@ -27,7 +30,7 @@ const Mainnav = () => {
     }
   };
   window.addEventListener("resize", Closehandler);
-  window.addEventListener("scroll", shadowhandler);
+  window.addEventListener("load", scrollevent);
   return (
     <div
       id="mainnavbar"
