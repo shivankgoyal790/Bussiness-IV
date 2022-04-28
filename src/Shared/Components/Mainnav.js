@@ -23,10 +23,16 @@ const Mainnav = () => {
     var scroll = window.scrollY;
 
     if (scroll >= 10) {
-      document.getElementById("mainnavbar").classList.add("shadow-lg");
+      var xyz = document.getElementById("mainnavbar");
+      if (xyz) {
+        xyz.classList.add("shadow-lg");
+      }
     }
     if (scroll < 10) {
-      document.getElementById("mainnavbar").classList.remove("shadow-lg");
+      var xz = document.getElementById("mainnavbar");
+      if (xz) {
+        xz.classList.remove("shadow-lg");
+      }
     }
   };
   window.addEventListener("resize", Closehandler);
