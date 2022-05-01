@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Mainnav from "../../Shared/Components/Mainnav";
+import Mainnav from "../../shared/components/Mainnav";
 import Forms from "./components/Forms";
 import SocialIcons from "./components/SocialIcons";
 import ContactCardContainer from "./components/ContactCardContainer";

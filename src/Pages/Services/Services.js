@@ -1,5 +1,5 @@
 import React from "react";
-import Mainnav from "../../Shared/Components/Mainnav";
+import Mainnav from "../../shared/components/Mainnav";
 import Heading from "./components/Heading";
 import image from "../../images/xabout1.jpg.pagespeed.ic.SJERQMLMIa.webp";
 import "./Services.css";

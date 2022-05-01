@@ -1,6 +1,6 @@
 import React from "react";
 import image2 from "../../images/download.svg";
-import Mainnav from "../../Shared/Components/Mainnav";
+import Mainnav from "../../shared/components/Mainnav";
 import SupportCards from "./components/SupportCards";
 import configdata from "../../config.json";
 import "./About.css";
