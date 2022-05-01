@@ -1,5 +1,5 @@
 import React from "react";
-import Infocardcontainer from "./InfoCardContainer";
+import Infocardcontainer from "./Infocardcontainer";
 import SvgPath from "./SvgPath";
 import ConfigData from "../../../config.json";
 

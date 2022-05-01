@@ -4,7 +4,7 @@ import image1 from "../../../images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg";
 import image2 from "../../../images/sean-pollock-PhYq704ffdA-unsplash.jpg";
 import image3 from "../../../images/istockphoto-1277348882-170667a.jpg";
 import image4 from "../../../images/michael-soledad-NrR6ByFMBas-unsplash.jpg";
-import ProjectList from "../../Portfolio/ProjectList";
+import ProjectList from "../../portfolio/ProjectList";
 const Relatedprojects = () => {
   const Projects = [
     {

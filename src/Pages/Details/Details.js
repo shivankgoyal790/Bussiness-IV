@@ -1,5 +1,5 @@
 import React from "react";
-import Mainnav from "../../Shared/Components/Mainnav";
+import Mainnav from "../../shared/components/Mainnav";
 import Carousel from "./components/Carousel";
 import Projectinfo from "./components/Projectinfo";
 import ProjectSummary from "./components/ProjectSummary";

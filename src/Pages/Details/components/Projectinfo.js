@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIcons from "../../../Components/Footer/Socialicons";
+import SocialIcons from "../../../components/footer/Socialicons";
 import {
   faBuilding,
   faCalendarAlt,

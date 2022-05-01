@@ -1,5 +1,5 @@
 import React from "react";
-import Mainnav from "../../Shared/Components/Mainnav";
+import Mainnav from "../../shared/components/Mainnav";
 import ProjectList from "./ProjectList";
 import image1 from "../../images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg";
 import image2 from "../../images/sean-pollock-PhYq704ffdA-unsplash.jpg";
