@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import SocialIcons from "./Socialicons";
+import SocialIcons from "./Socialicons.js";
 const Footer = () => {
   return (
     <div className="w-100 mt-5">

@@ -1,16 +1,17 @@
 .footerwaves {
-  background-image: url("../../images/footer-bg.svg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 220px;
-}
-
-.footerlinks > span {
-  cursor: pointer;
-}
-
-.footerlinks > span:hover {
-  font-weight: 700;
-  margin-left: 2px;
-}
+    background-image: url("../../images/footer-bg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+  }
+  
+  .footerlinks > span {
+    cursor: pointer;
+  }
+  
+  .footerlinks > span:hover {
+    font-weight: 700;
+    margin-left: 2px;
+  }
+  

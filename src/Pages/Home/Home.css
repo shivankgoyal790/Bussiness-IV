@@ -1,56 +1,57 @@
 .description-container {
-  background-image: url("../../images/hero-bg-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center;
-}
-
-.colorwaves {
-  background-image: url("../../images/footer-bg.svg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 220px;
-}
-
-.aboutcard1 {
-  background-color: rgb(36, 46, 66);
-  background-size: cover;
-  background-image: url("../../images/waves-1-1.png");
-}
-.aboutcard3 {
-  background-size: cover;
-  background-image: url("../../images/waves-1-1.png");
-  background-position: left;
-  background-color: rgb(254, 114, 53);
-}
-
-.aboutcard2 {
-  background-image: url("../../images/cropped-waves-1-1.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-.bg-whoweare {
-  background-image: url("../../images/section-bg-2-1.jpg");
-  background-position: 87% -110%;
-  background-repeat: no-repeat;
-}
-
-.reachus-bg {
-  background-position: center;
-  background-image: url("../../images/geometric-3037169.jpg");
-  background-size: cover;
-  background-color: rgba(254, 114, 53, 0.5);
-  background-blend-mode: multiply;
-}
-
-.team-bg {
-  background-color: rgb(0, 119, 255);
-  background-position: top;
-  background-size: cover;
-  padding: 100px 0px;
-  background-blend-mode: blend;
-  background-image: url("../../images/world-map.png");
-}
+    background-image: url("../../images/hero-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+  }
+  
+  .colorwaves {
+    background-image: url("../../images/footer-bg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+  }
+  
+  .aboutcard1 {
+    background-color: rgb(36, 46, 66);
+    background-size: cover;
+    background-image: url("../../images/waves-1-1.png");
+  }
+  .aboutcard3 {
+    background-size: cover;
+    background-image: url("../../images/waves-1-1.png");
+    background-position: left;
+    background-color: rgb(254, 114, 53);
+  }
+  
+  .aboutcard2 {
+    background-image: url("../../images/cropped-waves-1-1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-whoweare {
+    background-image: url("../../images/section-bg-2-1.jpg");
+    background-position: 87% -110%;
+    background-repeat: no-repeat;
+  }
+  
+  .reachus-bg {
+    background-position: center;
+    background-image: url("../../images/geometric-3037169.jpg");
+    background-size: cover;
+    background-color: rgba(254, 114, 53, 0.5);
+    background-blend-mode: multiply;
+  }
+  
+  .team-bg {
+    background-color: rgb(0, 119, 255);
+    background-position: top;
+    background-size: cover;
+    padding: 100px 0px;
+    background-blend-mode: blend;
+    background-image: url("../../images/world-map.png");
+  }
+  
