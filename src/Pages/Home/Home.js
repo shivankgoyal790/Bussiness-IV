@@ -1,12 +1,12 @@
 import React from "react";
-import WhatWeDo from "./components/WhatWeDo";
-import Description from "./components/Description";
-import Team from "./components/Team";
-import ReachUs from "./components/ReachUs";
+import WhatWeDo from "./Components/Whatwedo";
+import Description from "./Components/Description";
+import Team from "./Components/Team";
+import ReachUs from "./Components/ReachUs";
 import Mainnav from "../../Shared/Components/Mainnav";
-import SvgPath from "./components/SvgPath";
-import WhoWeAre from "./components/whoweare/WhoWeAre";
-import Article from "./components/articles/Article";
+import SvgPath from "./Components/SvgPath";
+import WhoWeAre from "./Components/whoweare/WhoWeAre";
+import Article from "./Components/articles/Article";
 import "./Home.css";
 const Home = () => {
   return (
